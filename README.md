@@ -1,7 +1,6 @@
 :rocket: Get Started
 
-- **在Unreal Engine商城里下载WebSocketServer插件**
-- **Download WebSocketServer from Unreal Engine Marketplace**
+- **Clone WebSocketServer插件，复制到项目的Plugins目录下**
 - 在内容浏览器中找到WebSOcketServer C++类下的WebSocketServerActor，将其拖入场景中
 - Find the **WebSocketServerActor** under the **WebSocketServer C++ Class** in the **Content Browser** and drag it into the Unreal Editor
 - 点击运行，WebSocketServer就构建好了
@@ -33,5 +32,5 @@
 2. To package the plugin, run the `RunUAT.bat` command :
 
    ```powershell
-   %UE4.26 Path%/Engine/Build/BatchFiles/RunUAT.bat BuildPlugin Plugin=%Base Path%/WebSocketServer/WebSocketServer.uplugin -Package=%Base Path%/WebSocketPlugin/Package/ -VS2017 -TargetPlatforms=Win64 -Rocket
+   %UE4.27 Path%/Engine/Build/BatchFiles/RunUAT.bat BuildPlugin Plugin=%Base Path%/WebSocketServer/WebSocketServer.uplugin -Package=%Base Path%/WebSocketPlugin/Package/ -VS2017 -TargetPlatforms=Win64 -Rocket
 
